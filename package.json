@@ -1,0 +1,17 @@
+{
+  "name": "product-categories-many-to-many-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "DATABASE_URL=postgres://localhost/products_categories_many_to_many nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.1.2",
+    "sequelize": "^3.30.2"
+  }
+}
